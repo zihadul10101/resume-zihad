@@ -10,7 +10,7 @@ import Service from '../components/section/Service';
 import Skills from '../components/section/Skills';
 import Footer from '../components/footer/Footer';
 import BacktoTop from '../components/helper/BacktoTop';
-import Facts from '../components/section/Facts';
+
 
 
 export default function Home() {
@@ -22,7 +22,7 @@ export default function Home() {
         <Hero />
       </div>
 
-      <main className="mx-72">
+      <main className="">
         <About />
         <Skills />
         <Resume />

@@ -7,9 +7,9 @@ import { FaAngleRight } from 'react-icons/fa'
 const Header = () => {
     const [open, setOpen] = useState(true);
     return (
-        <section  className="fixed">
+        <section  className="fixed z-50">
             <div
-                className={` ${open ? "w-72 fixed " : "w-20 "
+                className={` ${open ? "w-72  " : "w-20 "
                     } bg-dark-purple h-screen p-5   pt-8 relative duration-300`}
             >
                 <FaAngleRight

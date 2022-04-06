@@ -24,15 +24,7 @@ const BacktoTop = () => {
       })
     })
   
-    const handleClick = () => {
-      document.body.classList.toggle('mobile-nav-active');
-    }
-    useEffect(() => {
-      window.addEventListener('resize', () => {
-        document.body.classList.remove('mobile-nav-active');
-      });
-    }, []);
-    
+   
     return (
         <div>
         <span onClick={() => handleCLick()}

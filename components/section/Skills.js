@@ -16,13 +16,13 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="p-6   py-10">
-          <div className="flex flex-wrap">
+        <div className=" flex ">
+          <div className="lg:w-4/6 flex flex-wrap">
 
             {
               skillTittle.map(st => (
-                <div key={st.id} className="">
-                  <button onClick={() => setFilter(st.name)} className="px-4 mx-4 my-2 text-xl text-gray-100 transition bg-blue-600 rounded-md h-14 w-44 hover:bg-blue-700">
+                <div key={st.id} className=" lg:w-1/3 p-2">
+                  <button onClick={() => setFilter(st.name)} className="px-3 py-5 w-full  text-xl text-gray-100 transition bg-blue-600 rounded-md hover:bg-blue-700">
                     {st.title}
                   </button>
                 </div>
@@ -31,15 +31,15 @@ const Skills = () => {
 
 
           </div>
-          <div className="">
+          <div className="lg:w-2/6">
             {
               items.map((item => (
                 <div key={item.id} className="relative flex items-center justify-center">
                   <svg className="transform -rotate-90 w-72 h-72">
-                    <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
+                    <circle cx="145" cy="145" r="120" stroke="currentColor" strokeWidth="30" fill="transparent"
                       className="text-gray-700" />
 
-                    <circle cx="145" cy="145" r="120" stroke="currentColor" stroke-width="30" fill="transparent"
+                    <circle cx="145" cy="145" r="120" stroke="currentColor" strokeWidth="30" fill="transparent"
 
                       className="text-blue-500 " />
                   </svg>
