@@ -26,7 +26,7 @@ const BacktoTop = () => {
   
    
     return (
-        <div>
+        <div className='z-50'>
         <span onClick={() => handleCLick()}
           className=
           {`${visibility ? 'right-0 bottom-0 fixed z-10 ' : ''}`}

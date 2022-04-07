@@ -3,6 +3,7 @@ import 'aos/dist/aos.css';
 import Image from 'next/image';
 import aboutImg from '../../public/assets/img/profile-img.jpg'
 import useStartAnimation from '.././helper/useStartAnimation';
+import { FaDownload } from 'react-icons/fa';
 const About = () => {
     const transition = (duration) =>
         `transition duration-${duration} ease-in-out`;
@@ -33,10 +34,11 @@ const About = () => {
                                 A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I primarily focus on writing clean, elegant, and eﬃcient code. I am proﬁcient in HTML, CSS, Bootstrap, JavaScript, React, Mongo DB, Node Js, Express Js, Heroku, Firebase, and Netlify . I am always determined to learn & explore new technology.
                             </p>
                             <button
-                                className={` animate-bounce bg-indigo-500 px-10 py-3 text-lg uppercase text-white rounded-lg mt-10 hover:bg-indigo-300 transform  ${animated ? 'translate-y-0' : styleTranslate
+                                className={`flex items-center ml-5 animate-bounce bg-indigo-500  px-3 py-2 text-lg uppercase text-white rounded-lg mt-10 hover:bg-indigo-300 transform  ${animated ? 'translate-y-0' : styleTranslate
                                     } ${transition(3500)}`}
                             >
-                                Download
+                                 <FaDownload className="text-white mr-3" />
+                                Download Resume
                             </button>
                         </div>
                     </div>
