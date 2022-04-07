@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import Image from 'next/image';
 import { skillTittle, skillDb } from '../../db/db.local';
 
-const Skills = () => {
+const Skills = ({data}) => {
   const [filter, setFilter] = useState("html");
   let items = skillDb.filter((skill) => skill.name === filter);
-  console.log(items);
+  console.log(data);
   return (
     <section className="border border-red-500 p-6 bg-white  overflow-hidden">
       <div className="container px-5 4 mx-auto">

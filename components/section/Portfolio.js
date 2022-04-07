@@ -5,7 +5,7 @@ import Link from 'next/link';
 const Portfolio = () => {
     const [filter, setFilter] = useState("all");
     let items = projectdb.filter(item => item.name.includes(filter));
-    console.log(items);
+ 
     return (
         <section id="portfolio" className="border border-red-500 text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto">
