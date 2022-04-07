@@ -1,5 +1,4 @@
-import React from 'react';
-import { BlogData } from '../../db/db.local'
+import React, { useState, useEffect } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -11,8 +10,24 @@ import SwiperCore, {
 import Link from 'next/link';
 SwiperCore.use([Pagination, FreeMode, Autoplay]);
 
-const Artical = () => {
-  console.log();
+const Artical = ({data}) => {
+  console.log(data);
+  const [blog, setBlog] = useState([]);
+
+  useEffect(() => {
+    const url = 'http://localhost:3000/api/blog';
+    const blogData = async () => {
+      try {
+        const res = await fetch(url);
+        const data = await res.json();
+        setBlog(data)
+      } catch (error) {
+        console.log('error', error);
+      }
+    };
+    blogData();
+  }, [])
+
   return (
     <section id="artical" className="border border-red-500 p-6 bg-white  overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
@@ -60,7 +75,7 @@ const Artical = () => {
             className="mySwiper"
           >
             {
-              BlogData.map(blog => (
+              blog.map(blog => (
                 <SwiperSlide key={blog.id} >
                   <div className="p-6 flex flex-col flex-start ">
                     <img className="h-48 rounded w-full object-cover object-center mb-6" src={`/assets/img/testimonials/${blog.img}`} alt="content" />

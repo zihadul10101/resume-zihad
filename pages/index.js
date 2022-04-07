@@ -13,7 +13,7 @@ import BacktoTop from '../components/helper/BacktoTop';
 
 
 
-export default function Home({skills}) {
+export default function Home() {
 
   return (
     <>
@@ -24,7 +24,7 @@ export default function Home({skills}) {
 
       <main className="">
         <About />
-        <Skills data={skills}/>
+        <Skills />
         <Resume />
         <Portfolio />
         <Service />
@@ -36,13 +36,4 @@ export default function Home({skills}) {
     </>
 
   )
-}
-export async function getStaticProps() {
-  const res = await fetch('http://localhost:3000/api/skill')
-  const skills = await res.json()
-  return {
-    props: {
-      skills,
-    },
-  }
 }

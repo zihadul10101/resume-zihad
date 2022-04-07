@@ -11,22 +11,25 @@ const Contact = () => {
           </div>
         </div>
         <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
-          <h1 className="title-font font-medium text-3xl text-gray-900">Get In Touch</h1>
+          <h1 className="title-font font-medium text-3xl text-gray-900">Have a suggestion?</h1>
           <p className="leading-relaxed mt-4">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
         </div>
         <div className="lg:w-2/6 md:w-1/2 bg-gray-100 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+          <div className="relative mb-4">
+            <label className="leading-7 text-sm text-gray-600">Email</label>
+            <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+          </div>
           <div className="relative mb-4">
             <label className="leading-7 text-sm text-gray-600">Subject</label>
             <input type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </div>
           <div className="relative mb-4">
-            <label className="leading-7 text-sm text-gray-600">Description</label>
-            <input type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
-          <div className="relative mb-4">
-            <label className="leading-7 text-sm text-gray-600">Email</label>
-            <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
-          </div>
+            <label className="block uppercase text-gray-700 text-xs font-bold mb-2"
+              htmlFor="message">Message</label><textarea maxLength="300" name="feedback" id="feedback" rows="4"
+                cols="80"
+                className="border-0 px-3 py-3 bg-gray-300 placeholder-black text-gray-800 rounded text-sm shadow focus:outline-none w-full"
+                placeholder="" required></textarea>          </div>
+
           <button className="text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
         </div>
       </div>
