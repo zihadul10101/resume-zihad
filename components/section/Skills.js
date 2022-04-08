@@ -1,13 +1,12 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
-import { skillTittle, skillDb } from '../../db/db.local';
+import { skillTitledb, skilldb } from '../../db/db.local';
 
 const Skills = () => {
-  const [frontend, setFrontend] = useState('frontend');
-  const [backend, setBackend] = useState('backend');
-  const [tools, setTools] = useState('tools');
+  const [filter, setFilter] = useState("Frontend");
+  let items = skilldb.filter(item => item.name.includes(filter));
 
-
+  console.log(items);
 
 
   return (
@@ -20,22 +19,35 @@ const Skills = () => {
           </div>
         </div>
 
-        <div className="mx-auto flex justify-center p-10">
-          <button onClick={() => { setFrontend('frontend'); setBackend(''); setTools('') }} className="bg-indigo-500 mx-6 my-3 p-3">Frontend</button>
-          <button onClick={() => { setBackend('backend'); setFrontend(''); setTools('') }} className="bg-indigo-500 mx-6 my-3 p-3">Backend</button>
-          <button onClick={() => { setTools('tools'); setFrontend(''); setBackend(''); }} className="bg-indigo-500 mx-6 my-3 p-3">Tools</button>
+        <div className="md:w-1/2 w-full md:flex flex-wrap justify-center md:mx-auto">
+          {
+            skillTitledb.map(item => (
+              <button key={item.id} onClick={() => setFilter(item.name)} type="button" className={`${filter === item.name ? "bg-blue-600 text-white shadow px-3 py-5 rounded m-2" : " bg-white shadow px-3 py-5 rounded m-2 hover:bg-slate-600 hover:text-white"}`} >
+                {item.title}
+              </button>
+            ))
+          }
         </div>
 
-       <div className="flex flex-wrap ">
-       <span className="bg-cyan-600 p-5 rounded text-white m-3">HTML</span>
-       <span className="bg-cyan-600 p-5 rounded text-white m-3">HTML</span>
-       <span className="bg-cyan-600 p-5 rounded text-white m-3">HTML</span>
-       <span className="bg-cyan-600 p-5 rounded text-white m-3">HTML</span>
-       <span className="bg-cyan-600 p-5 rounded text-white m-3">HTML</span>
-       <span className="bg-cyan-600 p-5 rounded text-white m-3">HTML</span>
-       <span className="bg-cyan-600 p-5 rounded text-white m-3">HTML</span>
-       </div>
 
+        <div className="flex flex-wrap -m-4">
+          {
+            items.map((item => (
+              <div key={item.id} className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                <div className="h-full text-center">
+                  <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={`assets/img/service/${item.image}`} />
+                  <p className="leading-relaxed">
+                    {item.description}
+                  </p>
+
+                </div>
+              </div>
+            )))
+          }
+
+
+
+        </div>
       </div>
     </section>
   );

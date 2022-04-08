@@ -10,7 +10,7 @@ const Header = () => {
         <section  className="fixed z-50">
             <div
                 className={` ${open ? "w-72  " : "w-20 "
-                    } bg-dark-purple h-screen p-5   pt-8 relative duration-300`}
+                    } bg-slate-700 h-screen p-5   pt-8 relative duration-300`}
             >
                 <FaAngleRight
                     className={`absolute text-white text-2xl  cursor-pointer -right-3 top-9 w-7 bg-blue-600
@@ -56,8 +56,6 @@ const Header = () => {
                         }
 
                     </ul>
-              
-
             </div>
 
         </section>

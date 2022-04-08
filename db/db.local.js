@@ -5,59 +5,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 import { BsFacebook, BsGithub, BsTwitter, BsInstagram } from 'react-icons/bs'
 import { BiServer, BiHome, BiFolder, BiEnvelope, BiFileBlank, BiUser } from 'react-icons/bi'
 
-
-
-
-module.exports.skillTittle= [
-    {id:1, name: 'html',title: 'HTML',},
-    {id:2, name: 'css',title: 'CSS',},
-    {id:3, name: 'tail',title: 'Tailwind css',},
-    {id:4, name: 'js',title: 'JavaScript',},
-    {id:5, name: 'boo',title: 'Bootstrap',},
-    {id:6, name: 'react',title: 'React',},
-    {id:7, name: 'rest',title: 'Rest Api',},
-]
-
-module.exports.skillDb = [{
-    id: 1,
-    name: 'html',
-    percent: '95',
-},
-{
-    id: 2,
-    name: 'css',
-    percent: '70',
-},
-{
-    id: 3,
-    name: 'tail',
-    percent: '90',
-},
-{
-    id: 4,
-    name: 'js',
-    percent: '70',
-},
-{
-    id: 5,
-    name: 'boo',
-    percent: '80',
-}, {
-    id: 6,
-    name: 'react',
-    percent: '65',
-}, {
-    id: 7,
-    name: 'rest',
-    percent: '75',
-}
-],
-
-
-
-
-
-    module.exports.BlogData = [
+module.exports.BlogData = [
         {
             id: 1,
             img: 'testimonials-1.jpg',
@@ -262,6 +210,84 @@ module.exports.servicedb = [
         title: "Mern Stack",
         description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
         name: "mern",
+        image: "Seo.jpg"
+    },
+
+
+
+
+]
+
+module.exports.skillTitledb = [
+    { "title": "Frontend", "name": "Frontend" },
+    { "title": "Backend", "name": "Backend" },
+    { "title": "Tools", "name": "Tools" },
+   
+]
+
+module.exports.skilldb = [
+    {
+        id: 1,
+        title: "Web design",
+        description: "The main purpose here is to make you able to use graphic design tools and techniques in a professional way. Graphic Design helps to build brand identity of a company. Thus it needs to be conceptual an...",
+        name: "Frontend",
+        image: "Design.jpg"
+    },
+
+    {
+        id: 2,
+        title: "Web Development",
+        description: "Web Development consists of two segments front end development and backend development. Front-end Developers work with visual designs of a website and build the sites with using of code. The front end...",
+        name: "Frontend",
+        image: "Development.jpg"
+    },
+    {
+        id: 3,
+        title: "App development",
+        description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
+        name: "Frontend",
+        image: "Research.jpg"
+    },
+    {
+        id: 4,
+        title: "Digital Marketing",
+        description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
+        name: "Backend",
+        image: "Seo.jpg"
+    },
+    {
+        id: 5,
+        title: "Mern Stack",
+        description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
+        name: "Backend",
+        image: "Seo.jpg"
+    },
+    {
+        id: 6,
+        title: "Mern Stack",
+        description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
+        name: "Backend",
+        image: "Seo.jpg"
+    },
+    {
+        id: 7,
+        title: "Mern Stack",
+        description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
+        name: "Tools",
+        image: "Seo.jpg"
+    },
+    {
+        id: 8,
+        title: "Mern Stack",
+        description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
+        name: "Tools",
+        image: "Seo.jpg"
+    },
+    {
+        id: 9,
+        title: "Mern Stack",
+        description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
+        name: "Tools",
         image: "Seo.jpg"
     },
 
