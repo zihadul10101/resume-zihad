@@ -1,39 +1,19 @@
 import React from 'react';
-import Header from '../components/header/Header';
-import Artical from '../components/section/Artical';
-import Contact from '../components/section/Contact';
-import Hero from '../components/section/Hero';
-import About from '../components/section/About';
-import Portfolio from '../components/section/Portfolio';
-import Resume from '../components/section/Resume';
-import Service from '../components/section/Service';
-import Skills from '../components/section/Skills';
-import Footer from '../components/footer/Footer';
-import BacktoTop from '../components/helper/BacktoTop';
+import dynamic from 'next/dynamic';
 
+const Route = dynamic( () =>import('./AllPage'),{
+  loading:() =><>
+  <h1 className="text-center text-9xl text-red-500">Loading All</h1>
+  </>
+})
 
 
 export default function Home() {
 
   return (
-    <>
-      <div className="flex">
-        <Header />
-        <Hero />
-      </div>
-
-      <main className="">
-        <About />
-        <Skills />
-        <Resume />
-        <Portfolio />
-        <Service />
-        <Artical />
-        <Contact />
-        <Footer />
-      </main>
-       <BacktoTop />
-    </>
+   <>
+   <Route />
+   </>
 
   )
 }
