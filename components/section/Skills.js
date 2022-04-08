@@ -15,14 +15,14 @@ const Skills = () => {
         <div className=" w-full mb-10">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Skills</h1>
-            <div className="h-1 w-16 bg-indigo-500 rounded"></div>
+            <div className="h-1 w-16 bg-green-500 rounded"></div>
           </div>
         </div>
 
-        <div className="md:w-1/2 w-full md:flex flex-wrap justify-center md:mx-auto">
+        <div className="p-5 md:w-1/2 w-full md:flex flex-wrap justify-center md:mx-auto">
           {
             skillTitledb.map(item => (
-              <button key={item.id} onClick={() => setFilter(item.name)} type="button" className={`${filter === item.name ? "bg-blue-600 text-white shadow px-3 py-5 rounded m-2" : " bg-white shadow px-3 py-5 rounded m-2 hover:bg-slate-600 hover:text-white"}`} >
+              <button key={item.id} onClick={() => setFilter(item.name)} type="button" className={`${filter === item.name ? "bg-green-500 text-white shadow px-3 py-5 rounded m-2" : " bg-white shadow px-3 py-5 rounded m-2 hover:bg-green-700 hover:text-white"}`} >
                 {item.title}
               </button>
             ))
@@ -35,7 +35,8 @@ const Skills = () => {
             items.map((item => (
               <div key={item.id} className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                 <div className="h-full text-center">
-                  <img alt="testimonial" className="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100" src={`assets/img/service/${item.image}`} />
+                  <Image alt="testimonial" width={60} height={60} className=" mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 hover:rotate-90" src={`/assets/img/service/${item.image}`} />
+                  <h1 className="p-3 font-bold">{item.title}</h1>
                   <p className="leading-relaxed">
                     {item.description}
                   </p>

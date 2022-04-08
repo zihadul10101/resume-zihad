@@ -15,7 +15,7 @@ const About = () => {
                 <div className=" w-full mb-10">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About</h1>
-                        <div className="h-1 w-16 bg-indigo-500 rounded"></div>
+                        <div className="h-1 w-16 bg-green-500 rounded"></div>
                     </div>
                 </div>
                 <div className="lg:w-4/6 mx-auto">
@@ -34,7 +34,7 @@ const About = () => {
                                 A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I primarily focus on writing clean, elegant, and eﬃcient code. I am proﬁcient in HTML, CSS, Bootstrap, JavaScript, React, Mongo DB, Node Js, Express Js, Heroku, Firebase, and Netlify . I am always determined to learn & explore new technology.
                             </p>
                             <button
-                                className={`flex items-center ml-5 animate-bounce bg-indigo-500  px-3 py-2 text-lg uppercase text-white rounded-lg mt-10 hover:bg-indigo-300 transform  ${animated ? 'translate-y-0' : styleTranslate
+                                className={`flex items-center ml-5 animate-bounce bg-green-500  px-3 py-2 text-lg uppercase text-white rounded-lg mt-10 hover:bg-green-700 transform  ${animated ? 'translate-y-0' : styleTranslate
                                     } ${transition(3500)}`}
                             >
                                  <FaDownload className="text-white mr-3" />

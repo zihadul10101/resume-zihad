@@ -291,7 +291,28 @@ module.exports.skilldb = [
         image: "Seo.jpg"
     },
 
+    {
+        id: 10,
+        title: "Web design",
+        description: "The main purpose here is to make you able to use graphic design tools and techniques in a professional way. Graphic Design helps to build brand identity of a company. Thus it needs to be conceptual an...",
+        name: "Frontend",
+        image: "Design.jpg"
+    },
 
+    {
+        id: 12,
+        title: "Web Development",
+        description: "Web Development consists of two segments front end development and backend development. Front-end Developers work with visual designs of a website and build the sites with using of code. The front end...",
+        name: "Frontend",
+        image: "Development.jpg"
+    },
+    {
+        id: 13,
+        title: "App development",
+        description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
+        name: "Frontend",
+        image: "Research.jpg"
+    },
 
 
 ]

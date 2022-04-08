@@ -11,7 +11,7 @@ const Service = () => {
         <div className=" w-full mb-10">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Service</h1>
-            <div className="h-1 w-16 bg-indigo-500 rounded"></div>
+            <div className="h-1 w-16 bg-green-500 rounded"></div>
           </div>
         </div>
         <div className="flex  flex-wrap -m-4">
@@ -20,7 +20,7 @@ const Service = () => {
               {
                 serviceTitle.map((item => (
                   <div key={item.id} className="w-3/6 lg:w-1/3 p-2">
-                    <button onClick={() => setFilter(item.name)} className={`${filter === item.name ? "bg-blue-600 text-white w-full shadow px-3 py-5 rounded m-2" : "w-full bg-white shadow px-3 py-5 rounded m-2 hover:bg-orange-600 hover:text-white"}`}>
+                    <button onClick={() => setFilter(item.name)} className={`${filter === item.name ? "bg-green-500 text-white w-full shadow px-3 py-5 rounded m-2" : "w-full bg-white shadow px-3 py-5 rounded m-2 hover:bg-green-700 hover:text-white"}`}>
                       <Image className="object-contain  mx-auto p-1" width={16} height={0} src={`/assets/Image/service/${item.image}`} alt="" />
                       <h4>{item.title}</h4>
                     </button>

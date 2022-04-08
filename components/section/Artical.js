@@ -34,7 +34,7 @@ const Artical = ({data}) => {
         <div className=" w-full mb-10">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
             <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Artical</h1>
-            <div className="h-1 w-16 bg-indigo-500 rounded"></div>
+            <div className="h-1 w-16 bg-green-500 rounded"></div>
           </div>
         </div>
         <div className="flex flex-wrap -m-12">
@@ -84,7 +84,7 @@ const Artical = ({data}) => {
                     <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">
 
                       <Link href={blog.link}>
-                        <a className="text-indigo-500 inline-flex items-center">Learn More
+                        <a className="text-green-500 inline-flex items-center">Learn More
                           <svg className="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" fill="none">
                             <path d="M5 12h14"></path>
                             <path d="M12 5l7 7-7 7"></path>

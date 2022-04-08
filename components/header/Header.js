@@ -13,7 +13,7 @@ const Header = () => {
                     } bg-slate-700 h-screen p-5   pt-8 relative duration-300`}
             >
                 <FaAngleRight
-                    className={`absolute text-white text-2xl  cursor-pointer -right-3 top-9 w-7 bg-blue-600
+                    className={`absolute text-white text-2xl  cursor-pointer -right-3 top-9 w-7 bg-green-500
                                 border-2 rounded-full  ${!open && "rotate-180"}`}
                     onClick={() => setOpen(!open)}
                 />
@@ -28,7 +28,7 @@ const Header = () => {
                         {
                             soicalLinkDb.map(soical => (
 
-                                <a key={soical.id} href={soical.link} className="text-xl mx-auto p-3 text-white text-center hover:bg-blue-600  rounded-full "> {soical.icon} </a>
+                                <a key={soical.id} href={soical.link} className="text-xl mx-auto p-3 text-white text-center hover:bg-green-500  rounded-full "> {soical.icon} </a>
 
                             ))
                         }
@@ -48,8 +48,8 @@ const Header = () => {
                                      duration={200}
                                     >
                                         <a className=" text-xl cursor-pointer flex items-center gap-x-5 mx-auto text-white p-3 text-center  rounded-full">
-                                            <span className="hover:text-cyan-600 text-2xl">{item.icon}</span>
-                                            <span className={`hover:text-cyan-600 ${!open && "hidden"} origin-left duration-200`} >{item.name}</span></a>
+                                            <span className="hover:text-green-500 text-2xl">{item.icon}</span>
+                                            <span className={`hover:text-green-500 ${!open && "hidden"} origin-left duration-200`} >{item.name}</span></a>
                                     </Link>
                                 </li>
                             ))
