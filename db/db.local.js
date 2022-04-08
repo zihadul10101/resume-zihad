@@ -228,90 +228,97 @@ module.exports.skillTitledb = [
 module.exports.skilldb = [
     {
         id: 1,
-        title: "Web design",
+        title: "Html5",
         description: "The main purpose here is to make you able to use graphic design tools and techniques in a professional way. Graphic Design helps to build brand identity of a company. Thus it needs to be conceptual an...",
         name: "Frontend",
-        image: "Design.jpg"
+        image: "html.png"
     },
 
     {
         id: 2,
-        title: "Web Development",
+        title: "Javascript(Es6)",
         description: "Web Development consists of two segments front end development and backend development. Front-end Developers work with visual designs of a website and build the sites with using of code. The front end...",
         name: "Frontend",
-        image: "Development.jpg"
+        image: "js.png"
     },
     {
         id: 3,
-        title: "App development",
+        title: "React Js",
         description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
         name: "Frontend",
-        image: "Research.jpg"
+        image: "react.png"
     },
     {
         id: 4,
-        title: "Digital Marketing",
+        title: "Redux",
         description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
-        name: "Backend",
-        image: "Seo.jpg"
+        name: "Frontend",
+        image: "redux.png"
     },
     {
         id: 5,
-        title: "Mern Stack",
+        title: "Bootstrap",
         description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
-        name: "Backend",
-        image: "Seo.jpg"
+        name: "Frontend",
+        image: "bootstrap.png"
     },
     {
         id: 6,
-        title: "Mern Stack",
+        title: "Css3",
         description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
         name: "Backend",
-        image: "Seo.jpg"
+        image: "css.png"
     },
     {
         id: 7,
-        title: "Mern Stack",
+        title: "Node Js",
         description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
-        name: "Tools",
-        image: "Seo.jpg"
+        name: "Backend",
+        image: "node.png"
     },
     {
         id: 8,
-        title: "Mern Stack",
+        title: "MongoDb",
         description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
-        name: "Tools",
-        image: "Seo.jpg"
+        name: "Backend",
+        image: "mongodb.png"
     },
     {
         id: 9,
-        title: "Mern Stack",
+        title: "Mongoose",
         description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
-        name: "Tools",
-        image: "Seo.jpg"
+        name: "Backend",
+        image: "mongoose.png"
     },
 
     {
         id: 10,
-        title: "Web design",
+        title: "Chrom Dev Tools",
         description: "The main purpose here is to make you able to use graphic design tools and techniques in a professional way. Graphic Design helps to build brand identity of a company. Thus it needs to be conceptual an...",
-        name: "Frontend",
-        image: "Design.jpg"
+        name: "Tools",
+        image: "chrom.png"
     },
 
     {
         id: 12,
-        title: "Web Development",
+        title: "Vs Code",
         description: "Web Development consists of two segments front end development and backend development. Front-end Developers work with visual designs of a website and build the sites with using of code. The front end...",
-        name: "Frontend",
-        image: "Development.jpg"
+        name: "Tools",
+        image: "vscode.png"
     },
     {
         id: 13,
-        title: "App development",
+        title: "Git",
         description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
-        name: "Frontend",
-        image: "Research.jpg"
+        name: "Tools",
+        image: "git.png"
+    },
+    {
+        id: 14,
+        title: "Npm & Yarn",
+        description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
+        name: "Tools",
+        image: "npm.png"
     },
 
 
