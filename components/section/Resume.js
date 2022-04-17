@@ -26,10 +26,10 @@ const Resume = () => {
                                 <div className="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
                                     <h1 className="text-white text-xl font-medium py-2">Chearles Technologies Inc</h1>
                                     <p className="text-white sm:text-sm text-xs flex flex-wrap">
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
+                                        <span className="px-1 py-1 bg-green-700 text-white m-2">Frontend Developer</span>
+                                        <span className="px-1 py-1 bg-green-700 text-white m-2">React Developer</span>
+                                        <span className="px-1 py-1 bg-green-700 text-white m-2">React Developer</span>
+                                        <span className="px-1 py-1 bg-green-700 text-white m-2">React Developer</span>
 
                                     </p>
                                 </div>

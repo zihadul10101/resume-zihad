@@ -27,8 +27,9 @@ const AllPage = () => {
           <Artical />
           <Contact />
           <Footer />
+          <BacktoTop />
         </main>
-         <BacktoTop />
+        
       </>
     );
 };

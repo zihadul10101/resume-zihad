@@ -10,7 +10,7 @@ import SwiperCore, {
 import Link from 'next/link';
 SwiperCore.use([Pagination, FreeMode, Autoplay]);
 
-const Artical = ({data}) => {
+const Artical = ({ data }) => {
   console.log(data);
   const [blog, setBlog] = useState([]);
 

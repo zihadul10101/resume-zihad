@@ -7,7 +7,7 @@ import { FaAngleRight } from 'react-icons/fa'
 const Header = () => {
     const [open, setOpen] = useState(true);
     return (
-        <section  className="fixed z-50">
+        <section className="fixed z-50">
             <div
                 className={` ${open ? "w-72  " : "w-20 "
                     } bg-slate-700 h-screen p-5   pt-8 relative duration-300`}
@@ -19,7 +19,7 @@ const Header = () => {
                 />
 
                 <div className="text-center gap-x-4 ">
-                    <Image src={profileImg} className={`flex rounded-full cursor-pointer duration-500 ${open && "rotate-[360deg]"
+                    <Image src={profileImg} className={`flex rounded-full cursor-pointer  duration-500 ${open && " rotate-[360deg]"
                         }`} width={130} height={130} />
                     <h1 className={`text-white origin-left line- font-medium text-xl duration-200 ${!open && "scale-0"
                         }`}>Zihadul Islam</h1>
@@ -35,27 +35,27 @@ const Header = () => {
                     </div>
 
                 </div>
-              
-                    <ul className="mx-auto py-5">
-                        {
-                            headerLinkDb.map(item => (
-                                <li key={item.id}>
-                                    <Link href={item.link} 
-                                     to={item.to}
-                                     activeClass="active"
-                                     spy={true}
-                                     smooth={true}
-                                     duration={200}
-                                    >
-                                        <a className=" text-xl cursor-pointer flex items-center gap-x-5 mx-auto text-white p-3 text-center  rounded-full">
-                                            <span className="hover:text-green-500 text-2xl">{item.icon}</span>
-                                            <span className={`hover:text-green-500 ${!open && "hidden"} origin-left duration-200`} >{item.name}</span></a>
-                                    </Link>
-                                </li>
-                            ))
-                        }
 
-                    </ul>
+                <ul className="mx-auto py-5">
+                    {
+                        headerLinkDb.map(item => (
+                            <li key={item.id}>
+                                <Link href={item.link}
+                                    to={item.to}
+                                    activeClass="active"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={200}
+                                >
+                                    <a className=" text-xl cursor-pointer flex items-center gap-x-5 mx-auto text-white p-3 text-center  rounded-full">
+                                        <span className="hover:text-green-500 text-2xl">{item.icon}</span>
+                                        <span className={`hover:text-green-500 ${!open && "hidden"} origin-left duration-200`} >{item.name}</span></a>
+                                </Link>
+                            </li>
+                        ))
+                    }
+
+                </ul>
             </div>
 
         </section>
