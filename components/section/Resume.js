@@ -14,8 +14,8 @@ const Resume = () => {
                     </div>
                 </div>
                 <div className="mx-auto flex justify-center p-10">
-                    <button onClick={() => { setEdu('education'); setExp('') }} className="bg-green-500 hover:bg-green-700 mx-6 my-3 p-3 text-white rounded">Experience</button>
-                    <button onClick={() => { setExp('exprience'); setEdu(''); }} className="bg-green-500 hover:bg-green-700 mx-6 my-3 p-3 text-white rounded">Education</button>
+                    <button onClick={() => { setEdu('education'); setExp('') }} className={`bg-green-500 text-white shadow px-3 py-5 rounded m-2${setEdu === 'education' ? "bg-green-500 text-white shadow px-3 py-5 rounded m-2" : " bg-white shadow px-3 py-5 rounded m-2 hover:bg-green-700 hover:text-white"}`}>Experience</button>
+                    <button onClick={() => { setExp('exprience'); setEdu(''); }} className={`${setExp === 'exprience' ? "bg-green-500 text-white shadow px-3 py-5 rounded m-2" : " bg-white shadow px-3 py-5 rounded m-2 hover:bg-green-700 hover:text-white"}`}>Education</button>
                 </div>
                 {
 

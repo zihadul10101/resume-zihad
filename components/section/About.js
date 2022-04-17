@@ -2,13 +2,9 @@ import React from 'react';
 import 'aos/dist/aos.css';
 import Image from 'next/image';
 import aboutImg from '../../public/assets/img/profile-img.jpg'
-import useStartAnimation from '.././helper/useStartAnimation';
 import { FaDownload } from 'react-icons/fa';
 const About = () => {
-    const transition = (duration) =>
-        `transition duration-${duration} ease-in-out`;
-    const styleTranslate = 'translate-y-10 opacity-0';
-    const animated = useStartAnimation();
+
     return (
         <section id="about" className="border border-red-500 text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto ">
@@ -34,17 +30,16 @@ const About = () => {
                                 A self-motivated and enthusiastic web developer with a deep interest in JavaScript. I primarily focus on writing clean, elegant, and eﬃcient code. I am proﬁcient in HTML, CSS, Bootstrap, JavaScript, React, Mongo DB, Node Js, Express Js, Heroku, Firebase, and Netlify . I am always determined to learn & explore new technology.
                             </p>
                             <button
-                                className={`flex items-center ml-5 animate-bounce bg-green-500  px-3 py-2 text-lg uppercase text-white rounded-lg mt-10 hover:bg-green-700 transform  ${animated ? 'translate-y-0' : styleTranslate
-                                    } ${transition(3500)}`}
+                                className="flex items-center ml-5 animate-bounce bg-green-500  px-3 py-2 text-lg uppercase text-white rounded-lg mt-10 hover:bg-green-700 transform"
                             >
-                                 <FaDownload className="text-white mr-3" />
+                                <FaDownload className="text-white mr-3" />
                                 Download Resume
                             </button>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 };
 

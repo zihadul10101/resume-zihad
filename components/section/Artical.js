@@ -37,7 +37,7 @@ const Artical = ({ data }) => {
             <div className="h-1 w-16 bg-green-500 rounded"></div>
           </div>
         </div>
-        <div className="flex flex-wrap -m-12">
+        <div className="flex flex-wrap m-12">
           <Swiper
             breakpoints={{
               320: {

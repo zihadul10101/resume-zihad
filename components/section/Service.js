@@ -14,7 +14,7 @@ const Service = () => {
             <div className="h-1 w-16 bg-green-500 rounded"></div>
           </div>
         </div>
-        <div className="flex  flex-wrap -m-4">
+        <div className="flex  flex-wrap m-12">
           <div className="p-4 md:w-5/12  w-full">
             <div className="flex  lg:flex flex-wrap">
               {

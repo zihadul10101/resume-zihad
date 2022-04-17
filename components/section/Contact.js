@@ -10,7 +10,7 @@ const Contact = () => {
             <div className="h-1 w-16 bg-green-500 rounded"></div>
           </div>
         </div>
-        <div className="lg:w-3/5 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
+        <div className="lg:w-3/5 m-12 md:w-1/2 md:pr-16 lg:pr-0 pr-0">
           <h1 className="title-font font-medium text-3xl text-gray-900">Have a suggestion?</h1>
           <p className="leading-relaxed mt-4">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
         </div>
