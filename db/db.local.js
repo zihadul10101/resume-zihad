@@ -136,7 +136,7 @@ module.exports.headerLinkDb =
     { id: 7, icon: <BiEnvelope />, to: "contact", name: "Contact" }
     ]
 module.exports.soicalLinkDb = [
-    { id: 1, icon: <AiFillLinkedin />, link: 'https:/www.linkedin.com/in/zihadul-islam-bd' },
+    { id: 1, icon: <AiFillLinkedin />, link: 'https://www.linkedin.com/in/zihadul-islam-359b5321b/' },
     { id: 2, icon: <BsFacebook />, link: 'https://www.facebook.com/zihadul.islam.7140' },
     { id: 3, icon: <BsGithub />, link: 'https://github.com/zihadul10101' },
     { id: 4, icon: <BsTwitter />, link: 'https://twitter.com/Zihadul81183208' },
