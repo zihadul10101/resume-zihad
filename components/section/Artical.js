@@ -9,24 +9,11 @@ import SwiperCore, {
 } from 'swiper/core';
 import Link from 'next/link';
 SwiperCore.use([Pagination, FreeMode, Autoplay]);
+import {BlogData} from '../../db/db.local'
 
 const Artical = ({ data }) => {
   console.log(data);
-  const [blog, setBlog] = useState([]);
 
-  useEffect(() => {
-    const url = 'http://localhost:3000/api/blog';
-    const blogData = async () => {
-      try {
-        const res = await fetch(url);
-        const data = await res.json();
-        setBlog(data)
-      } catch (error) {
-        console.log('error', error);
-      }
-    };
-    blogData();
-  }, [])
 
   return (
     <section id="artical" className="border border-red-500 p-6 bg-white  overflow-hidden">
@@ -75,7 +62,7 @@ const Artical = ({ data }) => {
             className="mySwiper"
           >
             {
-              blog.map(blog => (
+              BlogData.map(blog => (
                 <SwiperSlide key={blog.id} >
                   <div className="p-6 flex flex-col flex-start ">
                     <img className="h-48 rounded w-full object-cover object-center mb-6" src={`/assets/img/testimonials/${blog.img}`} alt="content" />
