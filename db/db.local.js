@@ -266,7 +266,7 @@ module.exports.skilldb = [
         id: 6,
         title: "Css3",
         description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
-        name: "Backend",
+        name: "Frontend",
         image: "css.png"
     },
     {
@@ -319,6 +319,20 @@ module.exports.skilldb = [
         description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
         name: "Tools",
         image: "npm.png"
+    },
+    {
+        id: 15,
+        title: "Firebase",
+        description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
+        name: "Backend",
+        image: "database.png"
+    },
+    {
+        id: 15,
+        title: "Heroku",
+        description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
+        name: "Backend",
+        image: "heroku.png"
     },
 
 

@@ -24,7 +24,7 @@ const About = () => {
 
                         </div>
                         <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
-                            <p className="leading-relaxed text-lg mb-4">
+                            <p className="leading-relaxed font-medium text-lg mb-4">
                                 I am a Front-end developer Always ready to prove myself through my work and responsibility. I specialize in JavaScript and My role is Frontend Developer || React js Developer || MERN Stack, Developer
                             </p>
                             <p >My specialties include quickly learning new skills and programming languages, problem-solving, responsive design principles, website optimization, and Model View Controller (MVC) methods of organizing code. So far I have JavaScript, React js, HTML, CSS, Bootstrap, Tailwindcss, and Git/GitHub under my belt. I have started learning Node.JS, MongoDB, and Express.JS. I am still enthusiastically grabbing onto any other programming languages, frameworks, or principles I can integrate into the coding web in my head.</p>
