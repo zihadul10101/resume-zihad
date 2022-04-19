@@ -6,7 +6,7 @@ import { FaDownload } from 'react-icons/fa';
 const About = () => {
 
     return (
-        <section id="about" className="border border-sate-900 text-gray-600 body-font">
+        <section id="about" className=" text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto ">
                 <div className=" w-full mb-10">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">

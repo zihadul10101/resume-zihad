@@ -16,7 +16,7 @@ const Artical = ({ data }) => {
 
 
   return (
-    <section id="artical" className="border border-red-500 p-6 bg-white  overflow-hidden">
+    <section id="artical" className=" p-6 bg-white  overflow-hidden">
       <div className="container px-5 py-24 mx-auto">
         <div className=" w-full mb-10">
           <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
