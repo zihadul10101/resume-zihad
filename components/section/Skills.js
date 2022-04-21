@@ -30,22 +30,17 @@ const Skills = () => {
         </div>
 
 
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap">
           {
             items.map((item => (
               <div key={item.id} className="lg:w-1/5 lg:mb-0 mb-6 p-1">
                 <div className="h-full text-center">
                   <Image alt="testimonial" width={60} height={60} className=" mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100 hover:rotate-180" src={`/assets/img/skills/${item.image}`} />
                   <h1 className="p-3 font-bold text-xl">{item.title}</h1>
-                 
-
                 </div>
               </div>
             )))
           }
-
-
-
         </div>
       </div>
     </section>
