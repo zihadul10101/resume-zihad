@@ -30,7 +30,7 @@ const Skills = () => {
         </div>
 
 
-        <div className="flex flex-wrap">
+        <div className="flex flex-wrap" data-aos="zoom-in-down">
           {
             items.map((item => (
               <div key={item.id} className="lg:w-1/5 lg:mb-0 mb-6 p-1">

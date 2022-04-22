@@ -1,4 +1,5 @@
-import React from 'react';
+import React,{useEffect} from 'react';
+import AOS from "aos";
 import Header from '../components/header/Header';
 import Artical from '../components/section/Artical';
 import Contact from '../components/section/Contact';
@@ -11,6 +12,11 @@ import Skills from '../components/section/Skills';
 import Footer from '../components/footer/Footer';
 import BacktoTop from '../components/helper/BacktoTop';
 const AllPage = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000
+    });
+  }, []);
     return (
         <>
         <div className="flex">

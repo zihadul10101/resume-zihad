@@ -8,22 +8,22 @@ const About = () => {
     return (
         <section id="about" className=" text-gray-600 body-font">
             <div className="container px-5 py-24 mx-auto ">
-                <div className=" w-full mb-10">
+                <div  className=" w-full mb-10">
                     <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
                         <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">About</h1>
                         <div className="h-1 w-16 bg-green-500 rounded"></div>
                     </div>
                 </div>
-                <div className="lg:w-4/6 mx-auto">
+                <div  className="lg:w-4/6 mx-auto">
 
                     <div className="flex flex-col sm:flex-row mt-10">
-                        <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+                        <div data-aos="fade-right" className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                             <div className=" w-full h-full bg-gray-200 text-gray-400">
                                 <Image src={aboutImg} />
                             </div>
 
                         </div>
-                        <div className="sm:w-2/3 sm:pl-8 sm:py-8  border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+                        <div data-aos="fade-left" className="sm:w-2/3 sm:pl-8 sm:py-8  border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                             <p className="leading-relaxed font-medium text-lg mb-4">
                                 I am a Front-end developer Always ready to prove myself through my work and responsibility. I specialize in JavaScript and My role is Frontend Developer || React js Developer || MERN Stack, Developer
                             </p>

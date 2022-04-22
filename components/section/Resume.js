@@ -19,7 +19,7 @@ const Resume = () => {
                 </div>
                 {
 
-                    edu === 'education' ? <div className=" w-full flex justify-center items-center">
+                    edu === 'education' ? <div data-aos="zoom-in-down" className=" w-full flex justify-center items-center">
                         <div className="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
                             {/* <!-- Stack 1 --> */}
                             <div className="col-span-4 w-full h-full ">
@@ -79,7 +79,7 @@ const Resume = () => {
                         </div>
 
                     </div> : <>
-                        <div className=" w-full flex justify-center items-center">
+                        <div data-aos="zoom-in-down" className=" w-full flex justify-center items-center">
 
                             <div className="max-w-7xl mx-auto w-full grid grid-cols-9 px-2">
                                 {/* <!-- Stack 1 --> */}

@@ -24,7 +24,7 @@ const Portfolio = () => {
                         ))
                     }
                 </div>
-                <div className="flex flex-wrap gap-5 justify-center my-10">
+                <div data-aos="zoom-in-down" className="flex flex-wrap gap-5 justify-center my-10">
                     {
                         items.map((item => (
                             <div key={item.id} className="overflow-hidden shadow-lg rounded md:w-1/2 w-full lg:w-1/4 cursor-pointer">

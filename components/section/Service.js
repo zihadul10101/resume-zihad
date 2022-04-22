@@ -15,7 +15,7 @@ const Service = () => {
           </div>
         </div>
         <div className="flex  flex-wrap m-12">
-          <div className="p-4 md:w-5/12  w-full">
+          <div data-aos="fade-right" className="p-4 md:w-5/12  w-full">
             <div className="flex  lg:flex flex-wrap">
               {
                 serviceTitle.map((item => (
@@ -30,8 +30,8 @@ const Service = () => {
             </div>
           </div>
 
-          <div className="p-4 shadow  lg:flex md:w-7/12 w-full">
-            <div className="">
+          <div data-aos="fade-left" className="p-4 shadow  lg:flex md:w-7/12 w-full">
+            <div  >
               {
                 items.map((item => (
                   <div key={item.id} className="bg-white py-5 px-10">
@@ -46,7 +46,7 @@ const Service = () => {
 
             {
               items.map((item => (
-                <div key={item.id} className="w-full overflow-hidden">
+                <div  key={item.id} className="w-full overflow-hidden">
                   <div className="object-contain w-96">
                     <Image className="w-full h-full" width={300} height={300} src={`/assets/Img/service/${item.image}`} alt="" />
                   </div>

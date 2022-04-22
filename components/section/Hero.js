@@ -20,9 +20,9 @@ const Hero = () => {
                 <h1 className="font-extrabold  text-green-500  text-5xl ">Zihadul Islam</h1>
                 <p className="font-bold  text-white  text-xl ">I am <TypeAnimation
                     cursor={false}
-                    sequence={['Web Developer', 1000, 'React Developer', 2000, 'Frontend Developer', 1000, 'Full Stack Developer', 2000]}
+                    sequence={['Web Developer', 1000, 'React Developer', 2000, 'Frontend Developer', 1000, 'Full Stack Developer', Infinity]}
                     wrapper="span"
-                    className="border-b-4 border-green-400 tracking-widest pb-1"
+                    className="border-b-4 border-green-600 "
                 /></p>
             </div>
             
