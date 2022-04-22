@@ -1,6 +1,18 @@
 import React from 'react';
+import emailjs from '@emailjs/browser';
 
 const Contact = () => {
+  function sendEmail(e) {
+    e.preventDefault();
+
+    emailjs.sendForm('gmail@1', 'template_7xh1m61', e.target, 'fmarKjzEBgSxtJKD1')
+      .then((result) => {
+        console.log(result.text);
+      }, (error) => {
+        console.log(error.text);
+      });
+    e.target.reset();
+  }
   return (
     <section id="contact" className=" p-6 bg-white  overflow-hidden">
       <div className="container px-5 py-24 mx-auto flex flex-wrap items-center">
@@ -14,24 +26,31 @@ const Contact = () => {
           <h1 className="title-font font-medium text-3xl text-gray-900">Have a suggestion?</h1>
           <p className="leading-relaxed mt-4">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within a matter of hours to help you.</p>
         </div>
-        <div className="lg:w-2/6 md:w-1/2 bg-slate-600 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+       <form onSubmit={sendEmail} method="POST" className="lg:w-2/6 md:w-1/2 bg-slate-600 rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0">
+      
+       <div className="relative mb-4">
+            <label className="leading-7 text-sm text-white">Name</label>
+            <input type="name" id="name" require name="name" className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+          </div>
           <div className="relative mb-4">
             <label className="leading-7 text-sm text-white">Email</label>
-            <input type="email" id="email" name="email" className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <input type="email" id="email" require name="email" className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </div>
           <div className="relative mb-4">
             <label className="leading-7 text-sm text-white">Subject</label>
-            <input type="text" id="full-name" name="full-name" className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
+            <input type="text" id="subject" require name="subject" className="w-full bg-white rounded border border-gray-300 focus:border-green-500 focus:ring-2 focus:ring-green-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
           </div>
           <div className="relative mb-4">
             <label className="leading-7 text-sm text-white mb-2"
-              htmlFor="message">Message</label><textarea maxLength="300" name="feedback" id="feedback" rows="4"
+              htmlFor="message">Message</label>
+              <textarea require name="message" maxLength="300"  id="feedback" rows="4"
                 cols="80"
                 className="border-0 px-3 py-3   rounded text-sm shadow focus:border-green-500 focus:ring-2 focus:ring-green-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out w-full"
                 placeholder="" required></textarea>          </div>
 
-          <button className="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg">Button</button>
-        </div>
+          <button type="submit" className="text-white bg-green-500 border-0 py-2 px-8 focus:outline-none hover:bg-green-700 rounded text-lg">Button</button>
+      
+       </form>
       </div>
     </section>
   );
