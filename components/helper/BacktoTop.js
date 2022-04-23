@@ -2,7 +2,7 @@ import React,{ useState,useEffect} from 'react';
 import { AiOutlineArrowUp } from 'react-icons/ai'
 const BacktoTop = () => {
     const [visibility, setVisibility] = useState(false);
-    console.log(visibility);
+    
     const [position, setPosition] = useState({ top: 0, left: 0 })
   
     const handleCLick = () => {

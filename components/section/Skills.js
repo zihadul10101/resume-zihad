@@ -6,9 +6,6 @@ const Skills = () => {
   const [filter, setFilter] = useState("Frontend");
   let items = skilldb.filter(item => item.name.includes(filter));
 
-  console.log(items);
-
-
   return (
     <section className=" p-6 bg-white  overflow-hidden">
       <div className="container px-5 4 mx-auto">
