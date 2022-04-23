@@ -21,7 +21,7 @@ const Service = () => {
                 serviceTitle.map((item => (
                   <div key={item.id} className="w-3/6 lg:w-1/3 p-2">
                     <button onClick={() => setFilter(item.name)} className={`${filter === item.name ? "bg-green-500 text-white w-full shadow px-3 py-5 rounded m-2" : "w-full bg-white shadow px-3 py-5 rounded m-2 hover:bg-green-700 hover:text-white"}`}>
-                      <Image className="object-contain  mx-auto p-1" width={16} height={0} src={`/assets/Image/service/${item.image}`} alt="serviceImage" />
+                      <Image className="object-cover  mx-auto p-1" width={50} height={50} src={`/assets/Img/service/${item.image}`} alt="serviceImage" />
                       <h4>{item.title}</h4>
                     </button>
                   </div>
@@ -47,8 +47,8 @@ const Service = () => {
             {
               items.map((item => (
                 <div  key={item.id} className="w-full overflow-hidden">
-                  <div className="object-contain w-96">
-                    <Image className="w-full h-full" width={300} height={300} src={`/assets/Img/service/${item.image}`} alt="" />
+                  <div className="object-cover w-96">
+                    <Image  width={300} height={300} src={`/assets/Img/service/${item.image}`} alt="" />
                   </div>
                 </div>
               )))

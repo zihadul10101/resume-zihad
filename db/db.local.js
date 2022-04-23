@@ -91,38 +91,38 @@ module.exports.serviceTitle = [
         id: 1,
         title: "Web design",
         name: "design",
-        image: "Design.jpg"
+        image: "3d-animation.png"
     },
 
     {
         id: 2,
         title: "Figma to Html",
         name: "figma",
-        image: "Develpoment.jpg"
+        image: "web-develpoment.png"
     },
     {
         id: 3,
         title: "Frontend",
         name: "frontend",
-        image: "Research.jpg"
+        image: "ui-ux.png"
     },
     {
         id: 4,
         title: "MERN",
         name: "mern",
-        image: "Seo.jpg"
+        image: "networking.png"
     },
     {
         id: 5,
         title: "Pdf To Html",
         name: "pdf",
-        image: "Seo.jpg"
+        image: "Digital-Marketing.png"
     },
     {
         id: 6,
         title: "Responsive",
         name: "responsive",
-        image: "Seo.jpg"
+        image: "networking.png"
     },
 ]
 module.exports.servicedb = [
@@ -131,7 +131,7 @@ module.exports.servicedb = [
         title: "Web design",
         description: "The main purpose here is to make you able to use graphic design tools and techniques in a professional way. Graphic Design helps to build brand identity of a company. Thus it needs to be conceptual an...",
         name: "design",
-        image: "Design.jpg"
+        image: "webdesign.png"
     },
 
     {
@@ -167,7 +167,7 @@ module.exports.servicedb = [
         title: "Responsive Website",
         description: "Reach the fastest growing group of Android users. Build for current and future devices. Learn about APIs that can help you manage resizing and responding to configurations. Build for current devices. Learn responsive layouts. Support for screen sizes. Create foldable apps.",
         name: "responsive",
-        image: "responsive.jpg"
+        image: "res.png"
     },
 
 
