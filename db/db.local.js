@@ -297,6 +297,7 @@ module.exports.skilldb = [
 
 module.exports.projectTitledb = [
     { "title": "ALL PROJECT", "name": "all" },
+    { "title": "TEAM PROJECT", "name": "team" },
     { "title": "MERN STACK", "name": "mernstack" },
     { "title": "REST API", "name": "restApi" },
     { "title": "HTML CSS", "name": "htmlCss" },
@@ -354,9 +355,9 @@ module.exports.projectdb = [
         id: "6",
         name: ["htmlCss", "all"],
         project: {
-            projectImg: "portfolio-7.jpg",
-            liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
-            githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
+            projectImg: "panda.png",
+            liveLink: "https://zihadul10101.github.io/panda-commerce-bootstrap/#subscribe",
+            githubLink: "https://github.com/zihadul10101/panda-commerce-bootstrap",
         }
     },
     {
@@ -375,6 +376,16 @@ module.exports.projectdb = [
             projectImg: "portfolio-8.jpg",
             liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
             githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
+        }
+    }
+    ,
+    {
+        id: "9",
+        name: ["team", "all"],
+        project: {
+            projectImg: "localc.png",
+            liveLink: "https://f-express.web.app/",
+            githubLink: "https://github.com/zihadul10101/Fast-Express",
         }
     }
 
