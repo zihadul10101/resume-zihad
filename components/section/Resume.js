@@ -24,12 +24,13 @@ const Resume = () => {
                             {/* <!-- Stack 1 --> */}
                             <div className="col-span-4 w-full h-full ">
                                 <div className="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
-                                    <h1 className="text-white text-xl font-medium py-2">Chearles Technologies Inc</h1>
+                                    <h1 className="text-white text-2xl font-medium py-2">Chearles Technologies Inc</h1>
                                     <p className="text-white sm:text-sm text-xs flex flex-wrap">
                                         <span className="px-1 py-1 bg-green-700 text-white m-2">Frontend Developer</span>
-                                        <span className="px-1 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-1 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-1 py-1 bg-green-700 text-white m-2">React Developer</span>
+                                        <span className="px-1 py-1 bg-green-700 text-white m-2">User interface</span>
+                                        <span className="px-1 py-1 bg-green-700 text-white m-2">Code Management</span>
+                                        <span className="px-1 py-1 bg-green-700 text-white m-2">Backend</span>
+                                        <span className="px-1 py-1 bg-green-700 text-white m-2">Api Integeration</span>
 
                                     </p>
                                 </div>
@@ -47,12 +48,14 @@ const Resume = () => {
                                 <div className="absolute w-6 h-6 rounded-full bg-green-500 z-10 text-white text-center">2</div>
                             </div>
                             <div className="col-span-4 w-full h-full ">
-                                <div className="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">                 <h1 className="text-white text-xl font-medium py-2">sindabad-it-solution</h1>
+                                <div className="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">       
+                                          <h1 className="text-white text-2xl font-medium py-2">Sindabad-it-solution</h1>
                                     <p className="text-white sm:text-sm text-xs flex flex-wrap">
                                         <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Api Integeration</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">User Interface</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Code Management</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Responsive Handling</span>
 
                                     </p>
                                 </div>
@@ -61,12 +64,14 @@ const Resume = () => {
                             {/* <!-- Stack 3 --> */}
                             <div className="col-span-4 w-full h-full ">
                                 <div className="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
-                                    <h1 className="text-white text-xl font-medium py-2">Programing Hero Spical Endgame</h1>
+                                    <h1 className="text-white text-2xl font-medium py-2">Team Project</h1>
                                     <p className="text-white sm:text-sm text-xs flex flex-wrap">
                                         <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                        <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Learn Git Management</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">User Interface</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Api Integeration</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Code Management</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Team Combination</span>
 
                                     </p>
                                 </div>
@@ -85,13 +90,12 @@ const Resume = () => {
                                 {/* <!-- Stack 1 --> */}
                                 <div className="col-span-4 w-full h-full ">
                                     <div className="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
-                                        <h1 className="text-white text-xl font-medium py-2">Banderban Govt collage</h1>
+                                        <h1 className="text-white text-2xl font-medium py-2">Banderban Govt collage</h1>
                                         <p className="text-white sm:text-sm text-xs flex flex-wrap">
 
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
+                                            <span className="px-2 py-1 bg-green-700 text-white m-2">Deptment of Science</span>
+                                            <span className="px-2 py-1 bg-green-700 text-white m-2">Completed Higher Secondary Certificate</span>
+                                            <span className="px-2 py-1 bg-green-700 text-white m-2">Always Focused My Skillness</span> 
                                         </p>
                                     </div>
                                 </div>
@@ -110,36 +114,15 @@ const Resume = () => {
                                 </div>
                                 <div className="col-span-4 w-full h-full ">
                                     <div className="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
-                                        <h1 className="text-white text-xl font-medium py-2">sindabad-it-solution</h1>
+                                        <h1 className="text-white text-2xl font-medium py-2">Shah Umrabad High School</h1>
                                         <p className="text-white sm:text-sm text-xs flex flex-wrap">
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Deptment of Science</span>
+                                        <span className="px-2 py-1 bg-green-700 text-white m-2">Completed Secondary School Certificate</span>
+                                            <span className="px-2 py-1 bg-green-700 text-white m-2">Always Focused My Skillness</span> 
 
                                         </p>
                                     </div>
                                 </div>
-
-                                {/* <!-- Stack 3 --> */}
-                                <div className="col-span-4 w-full h-full ">
-                                    <div className="w-full h-full bg-green-500 rounded-md p-2 md:pl-4">
-                                        <h1 className="text-white text-xl font-medium py-2">Programing Hero Spical Endgame</h1>
-                                        <p className="text-white sm:text-sm text-xs flex flex-wrap">
-
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-                                            <span className="px-2 py-1 bg-green-700 text-white m-2">React Developer</span>
-
-                                        </p>
-                                    </div>
-                                </div>
-                                <div className="relative col-span-1 w-full h-full flex justify-center items-center">
-                                    <div className="h-full w-1 bg-green-500"></div>
-                                    <div className="absolute w-6 h-6 rounded-full bg-green-500 z-10 text-white text-center">3</div>
-                                </div>
-                                <div className="col-span-4 w-full h-full"></div>
                             </div>
 
                         </div>
