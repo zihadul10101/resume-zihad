@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { projectdb, projectTitledb } from '../../db/db.local';
 import { BsGithub, BsLink45Deg } from 'react-icons/bs';
 import Link from 'next/link';
+import Image from 'next/image';
 const Portfolio = () => {
     const [filter, setFilter] = useState("all");
     let items = projectdb.filter(item => item.name.includes(filter));
@@ -29,7 +30,7 @@ const Portfolio = () => {
                         items.map((item => (
                             <div key={item.id} className="overflow-hidden shadow-lg rounded md:w-1/2 w-full lg:w-1/4 cursor-pointer">
                                 <div className="block h-full mx-auto relative group">
-                                    <img alt="project" src={`assets/img/portfolio/${item.project.projectImg}`} className="max-h-72 object-cover" />
+                                    <Image alt="project" src={`/assets/img/portfolio/${item.project.projectImg}`} width={500} height={500} className="max-h-72 object-cover" />
                                     <div className="bg-green-700  w-full h-20 hidden group-hover:flex items-center justify-around  absolute bottom-0 left-0 z-20">
                                         <Link href={item.project.liveLink} >
                                             <a className="bg-white-800 rounded-full"  >

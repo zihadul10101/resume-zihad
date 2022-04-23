@@ -310,34 +310,34 @@ module.exports.projectdb = [
         id: "1",
         name: ["restApi", "all"],
         project: {
-            projectImg: "portfolio-6.jpg",
-            liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
-            githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
+            projectImg: "slider.png",
+            liveLink: "https://zihadul10101.github.io/fancy-slider-bug/index.html",
+            githubLink: "https://github.com/zihadul10101/fancy-slider-bug",
         }
     }
     , {
         id: "2",
         name: ["htmlCss", "all"],
         project: {
-            projectImg: "portfolio-5.jpg",
-            liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
-            githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
+            projectImg: "javlen.png",
+            liveLink: "https://zihadul10101.github.io/programing-plant-html-css/index.html",
+            githubLink: "https://github.com/zihadul10101/programing-plant-html-css",
         }
     },
     {
         id: "3",
         name: ["js", "all"],
         project: {
-            projectImg: "portfolio-3.jpg",
-            liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
-            githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
+            projectImg: "bank.png",
+            liveLink: "https://zihadul10101.github.io/pioneer-bank/",
+            githubLink: "https://github.com/zihadul10101/pioneer-bank",
         }
     },
     {
         id: "4",
-        name: ["mernstack", "all"],
+        name: ["team", "all"],
         project: {
-            projectImg: "portfolio-2.jpg",
+            projectImg: "sindabad.png",
             liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
             githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
         }
@@ -346,9 +346,9 @@ module.exports.projectdb = [
         id: "5",
         name: ["mernstack", "all"],
         project: {
-            projectImg: "portfolio-4.jpg",
-            liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
-            githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
+            projectImg: "evaly.png",
+            liveLink: "https://e-valy.netlify.app/",
+            githubLink: "https://github.com/zihadul10101/evaly-client-side",
         }
     },
     {
@@ -364,18 +364,18 @@ module.exports.projectdb = [
         id: "7",
         name: ["js", "all"],
         project: {
-            projectImg: "portfolio-5.jpg",
-            liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
-            githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
+            projectImg: "bus.png",
+            liveLink: "https://zihadul10101.github.io/bus-ticket-book/",
+            githubLink: "https://github.com/zihadul10101/bus-ticket-book",
         }
     },
     {
         id: "8",
         name: ["restApi", "all"],
         project: {
-            projectImg: "portfolio-8.jpg",
-            liveLink: "https://flamboyant-aryabhata-7b11bc.netlify.app/",
-            githubLink: "https://github.com/SindabadIT/sindabad-it-solution",
+            projectImg: "food.png",
+            liveLink: "https://zihadul10101.github.io/themealdb-api-js/",
+            githubLink: "https://github.com/zihadul10101/themealdb-api-js",
         }
     }
     ,
