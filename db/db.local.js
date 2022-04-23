@@ -8,88 +8,32 @@ import { BiServer, BiHome, BiFolder, BiEnvelope, BiFileBlank, BiUser } from 'rea
 module.exports.BlogData = [
         {
             id: 1,
-            img: 'testimonials-1.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
+            img: 'count.png',
+            link: 'https://medium.com/@Zihadul-Islam-BD/website-visit-counter-in-just-few-second-39a3ab39595c',
+            heading: 'Website Visit Counter in just few second',
+            dec: 'How to set visit counter in your website. Step by step guide .'
         },
         {
             id: 2,
-            img: 'testimonials-2.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
+            img: 'Git.png',
+            link: 'https://medium.com/@Zihadul-Islam-BD/most-interview-questions-git-vs-github-ac152efd97af',
+            heading: 'Every Developer Know Git Vs GitHub',
+            dec: 'Simply put, Git is a software that makes versioning work much easier.'
         },
         {
             id: 3,
-            img: 'testimonials-3.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
+            img: 'js.png',
+            link: 'https://medium.com/@Zihadul-Islam-BD/just-simple-fun-with-javascript-eae400a65330',
+            heading: 'JavaScript Ternary Operator',
+            dec: 'A ternary operator evaluates a condition and executes a block of code based on the condition.'
         },
         {
             id: 4,
-            img: 'testimonials-1.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
-        {
-            id: 5,
-            img: 'testimonials-4.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
-        {
-            id: 6,
-            img: 'testimonials-1.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
-        {
-            id: 7,
-            img: 'testimonials-5.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
-        {
-            id: 8,
-            img: 'testimonials-1.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
-        {
-            id: 9,
-            img: 'testimonials-1.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
-        {
-            id: 10,
-            img: 'testimonials-2.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
-        {
-            id: 11,
-            img: 'testimonials-3.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
-        {
-            id: 12,
-            img: 'testimonials-4.jpg',
-            link: '',
-            heading: 'Integer portitor mass sit amt fringl',
-            dec: 'Swag  cold-pressed. Gastropub street art beard dreamcatcher neutra, ethical XOXO lumbersexual.'
-        },
+            img: 'css.png',
+            link: 'https://medium.com/@Zihadul-Islam-BD/must-need-frontend-developer-link-207ffb9ba829',
+            heading: 'Best CSS Framework in 2022',
+            dec: 'A CSS framework is a library allowing for easier, more standards-compliant web design using the Cascading Style Sheets language.'
+        }
     ]
 module.exports.resumeDb = [
     {
@@ -153,25 +97,31 @@ module.exports.serviceTitle = [
     {
         id: 2,
         title: "Figma to Html",
-        name: "development",
+        name: "figma",
         image: "Develpoment.jpg"
     },
     {
         id: 3,
-        title: "Psd to Html",
-        name: "app",
+        title: "Frontend",
+        name: "frontend",
         image: "Research.jpg"
     },
     {
         id: 4,
-        title: "Digital Marketing",
-        name: "digital",
+        title: "MERN",
+        name: "mern",
         image: "Seo.jpg"
     },
     {
         id: 5,
-        title: "Mern",
-        name: "mern",
+        title: "Pdf To Html",
+        name: "pdf",
+        image: "Seo.jpg"
+    },
+    {
+        id: 6,
+        title: "Responsive",
+        name: "responsive",
         image: "Seo.jpg"
     },
 ]
@@ -186,31 +136,38 @@ module.exports.servicedb = [
 
     {
         id: 2,
-        title: "Web Development",
-        description: "Web Development consists of two segments front end development and backend development. Front-end Developers work with visual designs of a website and build the sites with using of code. The front end...",
-        name: "development",
-        image: "Development.jpg"
+        title: "Figma to Html",
+        description: "Going directly from Figma to HTML will allow you to create live web-based prototypes, deploy your own simple websites or landing pages, and hand developers clean code packages for the entire UI to speed up development",
+        name: "figma",
+        image: "figma.jpg",
     },
     {
         id: 3,
-        title: "App development",
-        description: "With the world going mobile, the importance of apps is increasing by the day. App development hence refers to the creation of applications to be used on mobile devices. Today when we buy a smartphone...",
-        name: "app",
-        image: "Research.jpg"
+        title: "Frontend development",
+        description: "Front-end frameworks are a powerful tool for developing complex user interfaces. They encourage you to build out a maintainable, modular, standalone architecture that makes it easy to build your application and collaborate with other developers.",
+        name: "frontend",
+        image: "frontend.jpg",
     },
     {
         id: 4,
-        title: "Digital Marketing",
-        description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
-        name: "digital",
-        image: "Seo.jpg"
+        title: "MERN Stack Development",
+        description: "The MERN stack is an excellent choice for companies wishing to develop high quality web applications. Indeed, this stack, in addition to using high-performance and customized technologies, allows for web applications and software to be developed very quickly!",
+        name: "mern",
+        image: "mern.jpg"
     },
     {
         id: 5,
-        title: "Mern Stack",
-        description: "Digital Marketing is taking over the traditional marketing rapidly. More and more people are engaging with online information and getting habituated with online shopping. It is the platform for all. I...",
-        name: "mern",
-        image: "Seo.jpg"
+        title: "Pdf To Html",
+        description: "PDF is a document file format that contains text, images, data etc. This document type is Operating System independent. It is an open standard that compresses a document and vector graphics. It can be viewed in web browsers if the PDF plug-in is installed on the browser.",
+        name: "pdf",
+        image: "pdf.png"
+    },
+    {
+        id: 6,
+        title: "Responsive Website",
+        description: "Reach the fastest growing group of Android users. Build for current and future devices. Learn about APIs that can help you manage resizing and responding to configurations. Build for current devices. Learn responsive layouts. Support for screen sizes. Create foldable apps.",
+        name: "responsive",
+        image: "responsive.jpg"
     },
 
 
