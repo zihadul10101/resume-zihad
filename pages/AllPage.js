@@ -19,12 +19,12 @@ const AllPage = () => {
   }, []);
     return (
         <>
-        <div className="flex">
+        <div  className="flex">
           <Header />
           <Hero />
         </div>
   
-        <main className="">
+        <main >
           <About />
           <Skills />
           <Resume />
