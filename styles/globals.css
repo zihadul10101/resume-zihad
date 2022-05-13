@@ -14,19 +14,7 @@ a {
 * {
   box-sizing: border-box;
 }
-#main {
-  margin-left: 300px;
-}
 
-@media (max-width: 1199px) {
-  #header {
-    left: -300px;
-  }
-
-  #main {
-    margin-left: 0;
-  }
-}
 @tailwind base; 
 @tailwind components; 
 @tailwind utilities;
