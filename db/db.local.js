@@ -88,20 +88,20 @@ module.exports.serviceTitle = [
         id: 1,
         title: "Web design",
         name: "design",
-        image: "3d-animation.png"
+        image: "animation.png"
     },
 
     {
         id: 2,
         title: "Figma to Html",
         name: "figma",
-        image: "web-develpoment.png"
+        image: "webdevelpoment.png"
     },
     {
         id: 3,
         title: "Frontend",
         name: "frontend",
-        image: "ui-ux.png"
+        image: "uiux.png"
     },
     {
         id: 4,
@@ -113,7 +113,7 @@ module.exports.serviceTitle = [
         id: 5,
         title: "Pdf To Html",
         name: "pdf",
-        image: "Digital-Marketing.png"
+        image: "DigitalMarketing.png"
     },
     {
         id: 6,
