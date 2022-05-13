@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/free-mode";
@@ -10,6 +10,7 @@ import SwiperCore, {
 import Link from 'next/link';
 SwiperCore.use([Pagination, FreeMode, Autoplay]);
 import {BlogData} from '../../db/db.local'
+import Image from 'next/image';
 
 const Artical = ({ data }) => {
   console.log(data);
@@ -65,7 +66,7 @@ const Artical = ({ data }) => {
               BlogData.map(blog => (
                 <SwiperSlide key={blog.id} >
                   <div className="p-6 flex flex-col flex-start ">
-                    <img className="h-48 rounded w-full object-cover object-center mb-6" src={`/assets/img/testimonials/${blog.img}`} alt="content" />
+                    <Image className="h-48 rounded w-full object-cover object-center mb-6" width={500} height={300}src={`/assets/img/testimonials/${blog.img}`} alt="content" />
                     <h2 className="sm:text-3xl text-xl title-font font-medium text-gray-900 mt-4 mb-4">{blog.heading}</h2>
                     <p className="leading-relaxed mb-2">{blog.dec}</p>
                     <div className="flex items-center flex-wrap pb-4 mb-4 border-b-2 border-gray-100 mt-auto w-full">

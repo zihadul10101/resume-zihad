@@ -19,7 +19,7 @@ const About = () => {
                     <div className="flex flex-col sm:flex-row mt-10">
                         <div data-aos="fade-right" className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                             <div className=" w-full h-full bg-gray-200 text-gray-400">
-                                <Image src={aboutImg} />
+                                <Image src={aboutImg} width={500} height={700}/>
                             </div>
 
                         </div>

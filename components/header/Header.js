@@ -19,7 +19,7 @@ const Header = () => {
                 />
 
                 <div className="text-center gap-x-4 ">
-                    <Image src={profileImg} className={`flex rounded-full cursor-pointer  duration-500 ${open && " rotate-[360deg]"
+                    <Image alt="profile img" src={profileImg} className={`flex rounded-full cursor-pointer  duration-500 ${open && " rotate-[360deg]"
                         }`} width={130} height={130} />
                     <h1 className={`text-white origin-left line- font-medium text-xl duration-200 ${!open && "scale-0"
                         }`}>Zihadul Islam</h1>

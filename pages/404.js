@@ -13,7 +13,7 @@ const PageNotFound = () => {
                 <Link href="/">
                <a  className="uppercase py-2 px-4 bg-orange-600 border-2 border-transparent text-white text-md mr-4 hover:bg-orange-700">     Back to Home</a>
                 </Link>
-                <Link href="/contact" >
+                <Link href="#contact" >
                    <a className="uppercase py-2 px-4 bg-transparent border-2 border-orange-600 text-orange-600 dark:text-white hover:bg-orange-600 hover:text-white text-md"> Contact us</a>
                 </Link>
             </div>

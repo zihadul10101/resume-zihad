@@ -1,6 +1,3 @@
-import testimg from '../public/assets/img/testimonials/testimonials-1.jpg'
-import testimga from '../public/assets/img/testimonials/testimonials-1.jpg'
-import testimgb from '../public/assets/img/testimonials/testimonials-1.jpg'
 import { AiFillLinkedin } from 'react-icons/ai';
 import { BsFacebook, BsGithub, BsTwitter, BsInstagram } from 'react-icons/bs'
 import { BiServer, BiHome, BiFolder, BiEnvelope, BiFileBlank, BiUser } from 'react-icons/bi'
@@ -8,7 +5,7 @@ import { BiServer, BiHome, BiFolder, BiEnvelope, BiFileBlank, BiUser } from 'rea
 module.exports.BlogData = [
         {
             id: 1,
-            img: 'count.png',
+            img: 'Count.png',
             link: 'https://medium.com/@Zihadul-Islam-BD/website-visit-counter-in-just-few-second-39a3ab39595c',
             heading: 'Website Visit Counter in just few second',
             dec: 'How to set visit counter in your website. Step by step guide .'
@@ -389,42 +386,4 @@ module.exports.projectdb = [
         }
     }
 
-]
-module.exports.reviewdb = [
-    {
-        id: 1,
-        title: '15 Javascript codes you will always need',
-        name: 'Zihadul Islam',
-        date: '20 mars 2029 - 6 min read',
-        rating: 5,
-        photo: testimga,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, odio corporis. Consectetur inventore consequatur atque voluptatem ipsa nam, architecto saepe earum dolorem quae possimus tempore alias sed.'
-    },
-    {
-        id: 2,
-        title: 'রেসপন্সিভ ওয়েব ডিজাইন নিয়ে কিছু কথা ও টিপসঃ',
-        name: 'Zihadul Islam',
-        date: '20 mars 2029 - 6 min read',
-        rating: 5,
-        photo: testimg,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, odio corporis. Consectetur inventore consequatur atque voluptatem ipsa nam, architecto saepe earum dolorem quae possimus tempore alias sed.'
-    },
-    {
-        id: 3,
-        title: 'মেথড ( HTTP Methods )',
-        name: 'Zihadul Islam',
-        date: '20 mars 2029 - 6 min read',
-        rating: 5,
-        photo: testimgb,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, odio corporis. Consectetur inventore consequatur atque voluptatem ipsa nam, architecto saepe earum dolorem quae possimus tempore alias sed.'
-    },
-    {
-        id: 4,
-        title: 'Tips needed to make Good Front-end Developer',
-        name: 'Zihadul Islam',
-        date: '20 mars 2029 - 6 min read',
-        rating: 5,
-        photo: testimg,
-        desc: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, odio corporis. Consectetur inventore consequatur atque voluptatem ipsa nam, architecto saepe earum dolorem quae possimus tempore alias sed.'
-    },
 ]
