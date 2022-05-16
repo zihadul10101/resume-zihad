@@ -23,7 +23,6 @@ const AllPage = () => {
           <Header />
           <Hero />
         </div>
-  
         <main >
           <About />
           <Skills />
